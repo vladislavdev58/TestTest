@@ -1,0 +1,23 @@
+.burger{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 6px 3px;
+  margin-right: 20px;
+
+  span{
+    display: block;
+    width: 18px;
+    height: 2px;
+    background: #1A1A1A;
+    margin-bottom: 3px;
+
+    &:last-child{
+      margin-bottom: 0;
+    }
+  }
+
+  @media (min-width: 1024px){
+    display: none;
+  }
+}

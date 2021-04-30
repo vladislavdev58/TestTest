@@ -1,0 +1,210 @@
+.footer {
+  background: #1A1A1A;
+  padding: 48px 0;
+  margin-top: 60px;
+
+  @media (min-width: 1024px) {
+    padding: 40px 0 32px;
+    margin-top: 80px;
+  }
+
+  &_wrap {
+    display: flex;
+    flex-direction: column;
+
+    @media (min-width: 620px) {
+      flex-direction: row;
+      flex-wrap: wrap;
+      > div {
+        flex-basis: 50%;
+      }
+    }
+
+    @media (min-width: 1024px) {
+      justify-content: space-between;
+
+      > div {
+        flex-basis: unset;
+      }
+    }
+  }
+
+  &_logo {
+    display: none;
+    margin-bottom: 24px;
+
+    &-svg {
+      width: 160px;
+      height: 80px;
+    }
+
+    @media (min-width: 620px) {
+      display: block;
+    }
+
+    @media (min-width: 1024px) {
+      margin-bottom: 20px;
+    }
+  }
+
+  &__info {
+    order: 2;
+    margin-bottom: 24px;
+
+    @media (min-width: 620px) {
+      order: unset;
+    }
+
+    @media (min-width: 1024px) {
+      margin-bottom: 0;
+    }
+
+    &_address {
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 20px;
+      color: #FFFFFF;
+      margin-bottom: 8px;
+
+      @media ( min-width: 1024px) {
+        margin-bottom: 18px;
+      }
+    }
+
+    &_politics {
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 20px;
+      text-decoration-line: underline;
+      color: #A0A0A0;
+    }
+  }
+
+  &__menu {
+    display: none;
+    margin-bottom: 24px;
+
+    @media (min-width: 620px) {
+      display: block;
+    }
+
+    @media (min-width: 1024px) {
+      padding-top: 6px;
+      margin-bottom: 0 !important;
+    }
+
+    &.mobile {
+      display: block;
+      margin-bottom: 24px;
+    }
+
+    &_title {
+      display: none;
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 26px;
+      color: #FFFFFF;
+      margin-bottom: 16px;
+
+      @media (min-width: 620px) {
+        display: block;
+      }
+    }
+  }
+
+  &__nav {
+    list-style-type: none;
+
+    &_item {
+      margin-bottom: 16px;
+
+      @media (min-width: 1024px) {
+        margin-bottom: 8px;
+      }
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+
+    &_link {
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 20px;
+      color: #C4C4C4;
+
+    }
+  }
+
+  &_universal {
+    margin-bottom: 20px;
+
+    @media (min-width: 1024px) {
+      text-align: right;
+      padding-top: 6px;
+      margin-bottom: 0;
+    }
+
+    .universal__info_phone {
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 29px;
+    }
+
+    .universal__info_text {
+      margin: 8px 0 16px;
+    }
+
+    .universal__info_email {
+      font-size: 18px;
+      line-height: 26px;
+    }
+
+    .universal__info_social-svg {
+      width: 42px;
+      height: 42px;
+
+      @media (min-width: 1024px) {
+        width: 32px;
+        height: 32px;
+      }
+    }
+
+    @media (min-width: 1024px) {
+      .universal__info_social {
+        justify-content: right;
+        margin-top: 42px;
+      }
+    }
+  }
+
+  &__copyright {
+    order: 3;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #A0A0A0;
+
+    @media (min-width: 620px) {
+      order: unset;
+    }
+
+    @media (min-width: 1024px) {
+      display: flex;
+      justify-content: space-between;
+      padding-top: 30px;
+    }
+
+    &_main {
+      margin-bottom: 8px;
+    }
+
+    a {
+      text-decoration: underline;
+    }
+  }
+}
+
+.footer__menu.desktop .footer__nav {
+  column-count: 2;
+}

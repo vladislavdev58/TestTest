@@ -1,0 +1,36 @@
+.dropdown{
+  &_main{
+    position: relative;
+    cursor: pointer;
+
+    &:after{
+      content: '';
+      display: block;
+      width: 24px;
+      height: 24px;
+      position: absolute;
+      top: 50%;
+      right: 0;
+      transform: translateY(-50%);
+      background: url("./img/arrow-up.svg") no-repeat;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+      transition: transform .5s;
+
+      @media (min-width: 1024px){
+        display: none;
+      }
+    }
+  }
+
+  &.hide {
+    .dropdown_main:after{
+      transform: translateY(-50%) rotate(-180deg);
+    }
+
+    .dropdown_child{
+      display: none;
+    }
+  }
+}

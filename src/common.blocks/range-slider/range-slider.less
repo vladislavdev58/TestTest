@@ -1,0 +1,103 @@
+.range-slider {
+  padding-top: 24px;
+  @media (min-width: 1024px) {
+    padding-top: 10px;
+  }
+
+  &__input {
+    display: flex;
+    justify-content: space-between;
+
+    &_wrap {
+      display: flex;
+      justify-content: space-between;
+      background: #FFFFFF;
+      border: 1px solid #C4C4C4;
+      box-sizing: border-box;
+      border-radius: 4px;
+      padding: 9px 12px;
+      width: 94px;
+    }
+
+    &_text {
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 18px;
+      color: #A0A0A0;
+
+      @media(min-width: 1024px){
+        font-size: 14px;
+        line-height: 20px;
+      }
+    }
+
+    &_num {
+      width: 46px;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 18px;
+      color: #1A1A1A;
+
+      @media (min-width: 1024px){
+        font-size: 14px;
+        line-height: 20px;
+      }
+
+      //Убираем стрелки
+      /* Chrome, Safari, Edge, Opera */
+
+      &::-webkit-outer-spin-button,
+      &::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+      }
+
+      /* Firefox */
+
+      &[type=number] {
+        -moz-appearance: textfield;
+      }
+    }
+  }
+
+  &_slider {
+    margin-bottom: 30px;
+  }
+}
+
+.noUi-target {
+  background: #C4C4C4;
+  border: none;
+  box-shadow: none;
+  border-radius: 4px;
+  height: 4px;
+}
+
+.noUi-connect {
+  background: #C4C4C4;
+}
+
+.noUi-handle::before, .noUi-handle::after {
+  display: none;
+}
+
+.noUi-handle {
+  border: 2px solid #FFFFFF;
+  box-sizing: border-box;
+  box-shadow: 0px 2px 2px rgba(50, 50, 71, 0.06), 0px 2px 4px rgba(50, 50, 71, 0.06);
+  border-radius: 50%;
+}
+
+.noUi-horizontal .noUi-handle {
+  width: 36px;
+  height: 36px;
+  top: -16px;
+
+
+
+  @media(min-width: 1024px){
+    width: 24px;
+    height: 24px;
+    top: -10px;
+  }
+}

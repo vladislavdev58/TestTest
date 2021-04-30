@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hello World</title>
+</head>
+<body>
+<div class="header">
+    <div class="container">
+        <div class="header__main">
+            <div class="burger burger-js">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="header__logo">
+                <svg class="logo">
+                    <use xlink:href="#logo"></use>
+                </svg>
+            </div>
+            <div class="header__search">
+                <form class="header__search_form" action="">
+                    <input class="header__search_input" placeholder="Поиск товара" type="text">
+                    <button class="header__search_button">
+                        <svg class="header__search_icon header_icon">
+                            <use xlink:href="#search"></use>
+                        </svg>
+                    </button>
+                </form>
+            </div>
+            <div class="header__info">
+                <a href="tel:+79876543210" class="header__info_phone">
+                    <svg class="header_icon">
+                        <use xlink:href="#phone"></use>
+                    </svg>
+                    <span>+7 987 654-32-10</span>
+                </a>
+                <p class="header__info_text">Ежедневно с 09:00 – 20:00</p>
+            </div>
+        </div>
+        <div class="header__nav">
+            <div class="header__nav_top">
+                <div class="header__nav_logo">
+                    <svg class="header__nav_logo-svg">
+                        <use xlink:href="#logo-white"></use>
+                    </svg>
+                </div>
+                <div class="header__nav_close nav_close-js">
+                    <svg class="header__nav_close-svg">
+                        <use xlink:href="#close-white"></use>
+                    </svg>
+                </div>
+            </div>
+            <ul class="nav">
+                <li class="nav__item dropdown">
+                    <span class="nav__item_title dropdown">Вся мебель</span>
+                    <ul class="nav__dropdown">
+                        <li class="nav__dropdown_item">
+                            <a class="nav__dropdown_link" href="">
+                                <div class="nav__dropdown_img">
+                                    <svg class="nav__dropdown_img-svg">
+                                        <use xlink:href="#sofa"></use>
+                                    </svg>
+                                </div>
+                                <span class="nav__dropdown_title">Мягкая мебель</span>
+                            </a>
+                        </li>
+                        <li class="nav__dropdown_item">
+                            <a class="nav__dropdown_link" href="">
+                                <div class="nav__dropdown_img">
+                                    <svg class="nav__dropdown_img-svg">
+                                        <use xlink:href="#fashion"></use>
+                                    </svg>
+                                </div>
+                                <span class="nav__dropdown_title">Для прихожей</span>
+                            </a>
+                        </li>
+                        <li class="nav__dropdown_item">
+                            <a class="nav__dropdown_link" href="">
+                                <div class="nav__dropdown_img">
+                                    <svg class="nav__dropdown_img-svg">
+                                        <use xlink:href="#kitchen"></use>
+                                    </svg>
+                                </div>
+                                <span class="nav__dropdown_title">Кухонная мебель</span>
+                            </a>
+                        </li>
+                        <li class="nav__dropdown_item">
+                            <a class="nav__dropdown_link" href="">
+                                <div class="nav__dropdown_img">
+                                    <svg class="nav__dropdown_img-svg">
+                                        <use xlink:href="#furniture-and-household"></use>
+                                    </svg>
+                                </div>
+                                <span class="nav__dropdown_title">Для гостиных</span>
+                            </a>
+                        </li>
+                        <li class="nav__dropdown_item">
+                            <a class="nav__dropdown_link" href="">
+                                <div class="nav__dropdown_img">
+                                    <svg class="nav__dropdown_img-svg">
+                                        <use xlink:href="#interior"></use>
+                                    </svg>
+                                </div>
+                                <span class="nav__dropdown_title">Столы</span>
+                            </a>
+                        </li>
+                        <li class="nav__dropdown_item">
+                            <a class="nav__dropdown_link" href="">
+                                <div class="nav__dropdown_img">
+                                    <svg class="nav__dropdown_img-svg">
+                                        <use xlink:href="#closet"></use>
+                                    </svg>
+                                </div>
+                                <span class="nav__dropdown_title">Шкафы</span>
+                            </a>
+                        </li>
+
+                    </ul>
+                </li>
+                <div class="nav_other">
+                    <li class="nav__item">
+                        <a href=""><span class="nav__item_title">Выставочные залы</span></a>
+                    </li>
+                    <li class="nav__item">
+                        <a href=""><span class="nav__item_title">О нас</span></a>
+                    </li>
+                    <li class="nav__item">
+                        <a href=""><span class="nav__item_title">Новости</span></a>
+                    </li>
+                    <li class="nav__item">
+                        <a href=""><span class="nav__item_title">Отзывы</span></a>
+                    </li>
+                    <li class="nav__item">
+                        <a href=""><span class="nav__item_title">Контакты</span></a>
+                    </li>
+                </div>
+            </ul>
+            <div class="header__nav_bottom">
+                <div class="universal__info">
+                    <a href="tel:+79876543210" class="universal__info_phone">+7 987 654-32-10</a>
+                    <p class="universal__info_text">Ежедневно с 09:00 – 20:00</p>
+                    <a href="mailto:example@example.ru" class="universal__info_email">example@example.ru</a>
+                    <div class="universal__info_social">
+                        <div class="universal__info_social-item">
+                            <svg class="universal__info_social-svg">
+                                <use xlink:href="#instagram"></use>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <ul class="breadcrumb">
+        <li class="breadcrumb__item">
+            <a href="" class="breadcrumb__item_link">Главная</a>
+        </li>
+        <li class="breadcrumb__item active">
+            <a href="" class="breadcrumb__item_link">Мягкая мебель</a>
+        </li>
+    </ul>
+</div>
+
+<div class="container">
+    <h1>Мягкая мебель</h1>
+    <div class="catalog">
+        <div class="filter">
+            <div class="filter__head">
+                <div class="filter__head_arrow">
+                    <!--
+                                            Тут может у кнопки функционал какой-то. Спросить времени много.
+                                            Поэтому сделал как кнопку. Иначе бы был before
+                    -->
+                    <svg class="filter__head_btn-svg">
+                        <use xlink:href="#arrow-left"></use>
+                    </svg>
+                </div>
+                <div class="filter__head_category">Мягкая мебель</div>
+                <div class="filter__head_btn filter_close-js">
+                    <svg class="filter__head_btn-svg">
+                        <use xlink:href="#close-grey"></use>
+                    </svg>
+                </div>
+            </div>
+            <div class="filter_container">
+                <div class="filter__wrap">
+                    <div class="dropdown">
+                        <div class="dropdown_main dropdown-js">
+                            <p class="filter__wrap_title">Категория</p>
+                        </div>
+                        <div class="dropdown_child">
+                            <div class="filter__category">
+                                <a href="" class="filter__category_item active">Мягкая мебель</a>
+                                <a href="" class="filter__category_item">Кресла-мешки</a>
+                                <a href="" class="filter__category_item">Компьютерные кресла</a>
+                                <a href="" class="filter__category_item">Кресла</a>
+                                <a href="" class="filter__category_item">Пуфики и банкетки</a>
+                                <a href="" class="filter__category_item">Кровати и матрасы</a>
+                                <a href="" class="filter__category_item">Диваны</a>
+                                <a href="" class="filter__category_item">Комплекты мягкой мебели</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="filter__wrap">
+                    <div class="dropdown">
+                        <div class="dropdown_main dropdown-js">
+                            <p class="filter__wrap_title">Цена</p>
+                        </div>
+                        <div class="dropdown_child">
+                            <div class="range-slider">
+                                <div id="range-cost" class="range-slider_slider"></div>
+                                <div class="range-slider__input">
+                                    <div class="range-slider__input_wrap">
+                                        <span class="range-slider__input_text">от</span>
+                                        <input id="range-cost_input-1" class="range-slider__input_num" type="number">
+                                    </div>
+                                    <div class="range-slider__input_wrap">
+                                        <span class="range-slider__input_text">до</span>
+                                        <input id="range-cost_input-2" class="range-slider__input_num" type="number">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="filter__wrap">
+                    <div class="filter__sale">
+                        <p class="filter__wrap_title">Товары со скидкой</p>
+                        <label class="switch">
+                            <input class="switch_input" type="checkbox">
+                            <span class="slider"></span>
+                        </label>
+                    </div>
+                </div>
+                <div class="filter__wrap">
+                    <div class="dropdown">
+                        <div class="dropdown_main dropdown-js">
+                            <p class="filter__wrap_title">Материалы</p>
+                        </div>
+                        <div class="dropdown_child">
+                            <div class="filter_material">
+                                <label class="checkbox filter_checkbox">
+                                    <input type="checkbox">
+                                    <div class="checkbox_custom"></div>
+                                    <span class="checkbox_name">ABS пластик</span>
+                                </label>
+
+                                <label class="checkbox filter_checkbox">
+                                    <input type="checkbox">
+                                    <div class="checkbox_custom"></div>
+                                    <span class="checkbox_name">Amicor TM</span>
+                                </label>
+
+                                <label class="checkbox filter_checkbox">
+                                    <input type="checkbox" checked>
+                                    <div class="checkbox_custom"></div>
+                                    <span class="checkbox_name">Eco Foam</span>
+                                </label>
+
+                                <label class="checkbox filter_checkbox">
+                                    <input type="checkbox">
+                                    <div class="checkbox_custom"></div>
+                                    <span class="checkbox_name">PLA пластик</span>
+                                </label>
+
+                                <label class="checkbox filter_checkbox">
+                                    <input type="checkbox">
+                                    <div class="checkbox_custom"></div>
+                                    <span class="checkbox_name">Акрил</span>
+                                </label>
+
+                                <label class="checkbox filter_checkbox">
+                                    <input type="checkbox">
+                                    <div class="checkbox_custom"></div>
+                                    <span class="checkbox_name">Алюминиевый сплав</span>
+                                </label>
+
+                                <label class="checkbox filter_checkbox">
+                                    <input type="checkbox">
+                                    <div class="checkbox_custom"></div>
+                                    <span class="checkbox_name">Алюминий</span>
+                                </label>
+
+                                <label class="checkbox filter_checkbox">
+                                    <input type="checkbox">
+                                    <div class="checkbox_custom"></div>
+                                    <span class="checkbox_name">Бамбук</span>
+                                </label>
+                                <span class="filter_material-all">Показать все</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="filter__wrap">
+                    <div class="dropdown hide">
+                        <div class="dropdown_main dropdown-js">
+                            <p class="filter__wrap_title">Высота, см</p>
+                        </div>
+                        <div class="dropdown_child">
+                            <div class="range-slider">
+                                <div id="range-height" class="range-slider_slider"></div>
+                                <div class="range-slider__input">
+                                    <div class="range-slider__input_wrap">
+                                        <span class="range-slider__input_text">от</span>
+                                        <input id="range-height_input-1" class="range-slider__input_num" type="number">
+                                    </div>
+                                    <div class="range-slider__input_wrap">
+                                        <span class="range-slider__input_text">до</span>
+                                        <input id="range-height_input-2" class="range-slider__input_num" type="number">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="filter__wrap">
+                    <div class="dropdown hide">
+                        <div class="dropdown_main dropdown-js">
+                            <p class="filter__wrap_title">Длина, см</p>
+                        </div>
+                        <div class="dropdown_child">
+                            <div class="range-slider">
+                                <div id="range-length" class="range-slider_slider"></div>
+                                <div class="range-slider__input">
+                                    <div class="range-slider__input_wrap">
+                                        <span class="range-slider__input_text">от</span>
+                                        <input id="range-length_input-1" class="range-slider__input_num" type="number">
+                                    </div>
+                                    <div class="range-slider__input_wrap">
+                                        <span class="range-slider__input_text">до</span>
+                                        <input id="range-length_input-2" class="range-slider__input_num" type="number">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="catalog_main">
+            <div class="tags">
+                <div class="tags__item">
+                    <span class="tags__item_title">Материалы: Eco Foam</span>
+                    <span class="tags__item_btn tag_remove-js">
+                    <svg class="tags__item_btn-svg">
+                        <use xlink:href="#close-white"></use>
+                    </svg>
+                </span>
+                </div>
+                <div class="tags__item">
+                    <span class="tags__item_title">Цвет: Бирюзовый</span>
+                    <span class="tags__item_btn tag_remove-js">
+                    <svg class="tags__item_btn-svg">
+                        <use xlink:href="#close-white"></use>
+                    </svg>
+                </span>
+                </div>
+                <div class="tags__item">
+                    <span class="tags__item_title">Длина, см: от 400 до 2000</span>
+                    <span class="tags__item_btn tag_remove-js">
+                    <svg class="tags__item_btn-svg">
+                        <use xlink:href="#close-white"></use>
+                    </svg>
+                </span>
+                </div>
+                <div class="tags__clear tag_remove__all-js">
+                    <span class="tags__clear_text">Очистить все</span>
+                </div>
+            </div>
+            <div class="filter__btn filter_open-js">
+                <div class="filter__btn_img">
+                    <svg class="filter__btn_img-svg">
+                        <use xlink:href="#filter"></use>
+                    </svg>
+                </div>
+                <div class="filter__btn_text">Фильтр</div>
+            </div>
+            <div class="catalog_list">
+                <a href="" class="catalog__item">
+                    <img class="catalog__item_img" src="./common.blocks/catalog/img/sofa-1.png" alt="">
+                    <div class="catalog__item_info">
+                        <p class="catalog__item_title">Диван-кровать Вилли Рогожка, розовый</p>
+                        <span class="catalog__item_cost-actual">4234 ₽</span>
+                        <span class="catalog__item_cost-old">21 000 ₽</span>
+                    </div>
+                </a>
+                <a href="" class="catalog__item">
+                    <img class="catalog__item_img" src="./common.blocks/catalog/img/sofa-2.png" alt="">
+                    <div class="catalog__item_info">
+                        <p class="catalog__item_title">Диван-кровать Шарм-Дизайн ЕвроШарм серый с беж</p>
+                        <span class="catalog__item_cost-actual">12 244 ₽</span>
+                        <span class="catalog__item_cost-old">21 000 ₽</span>
+                    </div>
+                </a>
+                <a href="" class="catalog__item">
+                    <img class="catalog__item_img" src="./common.blocks/catalog/img/sofa-3.png" alt="">
+                    <div class="catalog__item_info">
+                        <p class="catalog__item_title">Диван-кровать Бит-2 Латте</p>
+                        <span class="catalog__item_cost-actual">7000 ₽</span>
+                        <span class="catalog__item_cost-old">21 000 ₽</span>
+                    </div>
+                </a>
+                <a href="" class="catalog__item">
+                    <img class="catalog__item_img" src="./common.blocks/catalog/img/sofa-2.png" alt="">
+                    <div class="catalog__item_info">
+                        <p class="catalog__item_title">Диван-кровать Вилли Рогожка, розовый</p>
+                        <span class="catalog__item_cost-actual">4234 ₽</span>
+                        <span class="catalog__item_cost-old">21 000 ₽</span>
+                    </div>
+                </a>
+                <a href="" class="catalog__item">
+                    <img class="catalog__item_img" src="./common.blocks/catalog/img/sofa-2.png" alt="">
+                    <div class="catalog__item_info">
+                        <p class="catalog__item_title">Диван-кровать Шарм-Дизайн ЕвроШарм серый с беж</p>
+                        <span class="catalog__item_cost-actual">12 244 ₽</span>
+                        <span class="catalog__item_cost-old">21 000 ₽</span>
+                    </div>
+                </a>
+                <a href="" class="catalog__item">
+                    <img class="catalog__item_img" src="./common.blocks/catalog/img/sofa-3.png" alt="">
+                    <div class="catalog__item_info">
+                        <p class="catalog__item_title">Диван-кровать Бит-2 Латте</p>
+                        <span class="catalog__item_cost-actual">7000 ₽</span>
+                        <span class="catalog__item_cost-old">21 000 ₽</span>
+                    </div>
+                </a>
+                <a href="" class="catalog__item">
+                    <img class="catalog__item_img" src="./common.blocks/catalog/img/sofa-1.png" alt="">
+                    <div class="catalog__item_info">
+                        <p class="catalog__item_title">Диван-кровать Вилли Рогожка, розовый</p>
+                        <span class="catalog__item_cost-actual">4234 ₽</span>
+                        <span class="catalog__item_cost-old">21 000 ₽</span>
+                    </div>
+                </a>
+                <a href="" class="catalog__item">
+                    <img class="catalog__item_img" src="./common.blocks/catalog/img/sofa-2.png" alt="">
+                    <div class="catalog__item_info">
+                        <p class="catalog__item_title">Диван-кровать Шарм-Дизайн ЕвроШарм серый с беж</p>
+                        <span class="catalog__item_cost-actual">12 244 ₽</span>
+                        <span class="catalog__item_cost-old">21 000 ₽</span>
+                    </div>
+                </a>
+                <a href="" class="catalog__item">
+                    <img class="catalog__item_img" src="./common.blocks/catalog/img/sofa-3.png" alt="">
+                    <div class="catalog__item_info">
+                        <p class="catalog__item_title">Диван-кровать Бит-2 Латте</p>
+                        <span class="catalog__item_cost-actual">7000 ₽</span>
+                        <span class="catalog__item_cost-old">21 000 ₽</span>
+                    </div>
+                </a>
+                <a href="" class="catalog__item">
+                    <img class="catalog__item_img" src="./common.blocks/catalog/img/sofa-1.png" alt="">
+                    <div class="catalog__item_info">
+                        <p class="catalog__item_title">Диван-кровать Вилли Рогожка, розовый</p>
+                        <span class="catalog__item_cost-actual">4234 ₽</span>
+                        <span class="catalog__item_cost-old">21 000 ₽</span>
+                    </div>
+                </a>
+                <a href="" class="catalog__item">
+                    <img class="catalog__item_img" src="./common.blocks/catalog/img/sofa-2.png" alt="">
+                    <div class="catalog__item_info">
+                        <p class="catalog__item_title">Диван-кровать Шарм-Дизайн ЕвроШарм серый с беж</p>
+                        <span class="catalog__item_cost-actual">12 244 ₽</span>
+                        <span class="catalog__item_cost-old">21 000 ₽</span>
+                    </div>
+                </a>
+                <a href="" class="catalog__item">
+                    <img class="catalog__item_img" src="./common.blocks/catalog/img/sofa-3.png" alt="">
+                    <div class="catalog__item_info">
+                        <p class="catalog__item_title">Диван-кровать Бит-2 Латте</p>
+                        <span class="catalog__item_cost-actual">7000 ₽</span>
+                        <span class="catalog__item_cost-old">21 000 ₽</span>
+                    </div>
+                </a>
+                <a href="" class="catalog__item">
+                    <img class="catalog__item_img" src="./common.blocks/catalog/img/sofa-1.png" alt="">
+                    <div class="catalog__item_info">
+                        <p class="catalog__item_title">Диван-кровать Вилли Рогожка, розовый</p>
+                        <span class="catalog__item_cost-actual">4234 ₽</span>
+                        <span class="catalog__item_cost-old">21 000 ₽</span>
+                    </div>
+                </a>
+                <a href="" class="catalog__item">
+                    <img class="catalog__item_img" src="./common.blocks/catalog/img/sofa-2.png" alt="">
+                    <div class="catalog__item_info">
+                        <p class="catalog__item_title">Диван-кровать Шарм-Дизайн ЕвроШарм серый с беж</p>
+                        <span class="catalog__item_cost-actual">12 244 ₽</span>
+                        <span class="catalog__item_cost-old">21 000 ₽</span>
+                    </div>
+                </a>
+                <a href="" class="catalog__item">
+                    <img class="catalog__item_img" src="./common.blocks/catalog/img/sofa-3.png" alt="">
+                    <div class="catalog__item_info">
+                        <p class="catalog__item_title">Диван-кровать Бит-2 Латте</p>
+                        <span class="catalog__item_cost-actual">7000 ₽</span>
+                        <span class="catalog__item_cost-old">21 000 ₽</span>
+                    </div>
+                </a>
+                <a href="" class="catalog__item">
+                    <img class="catalog__item_img" src="./common.blocks/catalog/img/sofa-1.png" alt="">
+                    <div class="catalog__item_info">
+                        <p class="catalog__item_title">Диван-кровать Вилли Рогожка, розовый</p>
+                        <span class="catalog__item_cost-actual">4234 ₽</span>
+                        <span class="catalog__item_cost-old">21 000 ₽</span>
+                    </div>
+                </a>
+                <a href="" class="catalog__item">
+                    <img class="catalog__item_img" src="./common.blocks/catalog/img/sofa-2.png" alt="">
+                    <div class="catalog__item_info">
+                        <p class="catalog__item_title">Диван-кровать Шарм-Дизайн ЕвроШарм серый с беж</p>
+                        <span class="catalog__item_cost-actual">12 244 ₽</span>
+                        <span class="catalog__item_cost-old">21 000 ₽</span>
+                    </div>
+                </a>
+                <a href="" class="catalog__item">
+                    <img class="catalog__item_img" src="./common.blocks/catalog/img/sofa-3.png" alt="">
+                    <div class="catalog__item_info">
+                        <p class="catalog__item_title">Диван-кровать Бит-2 Латте</p>
+                        <span class="catalog__item_cost-actual">7000 ₽</span>
+                        <span class="catalog__item_cost-old">21 000 ₽</span>
+                    </div>
+                </a>
+                <a href="" class="catalog__item">
+                    <img class="catalog__item_img" src="./common.blocks/catalog/img/sofa-1.png" alt="">
+                    <div class="catalog__item_info">
+                        <p class="catalog__item_title">Диван-кровать Вилли Рогожка, розовый</p>
+                        <span class="catalog__item_cost-actual">4234 ₽</span>
+                        <span class="catalog__item_cost-old">21 000 ₽</span>
+                    </div>
+                </a>
+                <a href="" class="catalog__item">
+                    <img class="catalog__item_img" src="./common.blocks/catalog/img/sofa-2.png" alt="">
+                    <div class="catalog__item_info">
+                        <p class="catalog__item_title">Диван-кровать Шарм-Дизайн ЕвроШарм серый с беж</p>
+                        <span class="catalog__item_cost-actual">12 244 ₽</span>
+                        <span class="catalog__item_cost-old">21 000 ₽</span>
+                    </div>
+                </a>
+                <a href="" class="catalog__item">
+                    <img class="catalog__item_img" src="./common.blocks/catalog/img/sofa-3.png" alt="">
+                    <div class="catalog__item_info">
+                        <p class="catalog__item_title">Диван-кровать Бит-2 Латте</p>
+                        <span class="catalog__item_cost-actual">7000 ₽</span>
+                        <span class="catalog__item_cost-old">21 000 ₽</span>
+                    </div>
+                </a>
+                <a href="" class="catalog__item">
+                    <img class="catalog__item_img" src="./common.blocks/catalog/img/sofa-1.png" alt="">
+                    <div class="catalog__item_info">
+                        <p class="catalog__item_title">Диван-кровать Вилли Рогожка, розовый</p>
+                        <span class="catalog__item_cost-actual">4234 ₽</span>
+                        <span class="catalog__item_cost-old">21 000 ₽</span>
+                    </div>
+                </a>
+                <a href="" class="catalog__item">
+                    <img class="catalog__item_img" src="./common.blocks/catalog/img/sofa-2.png" alt="">
+                    <div class="catalog__item_info">
+                        <p class="catalog__item_title">Диван-кровать Шарм-Дизайн ЕвроШарм серый с беж</p>
+                        <span class="catalog__item_cost-actual">12 244 ₽</span>
+                        <span class="catalog__item_cost-old">21 000 ₽</span>
+                    </div>
+                </a>
+                <a href="" class="catalog__item">
+                    <img class="catalog__item_img" src="./common.blocks/catalog/img/sofa-3.png" alt="">
+                    <div class="catalog__item_info">
+                        <p class="catalog__item_title">Диван-кровать Бит-2 Латте</p>
+                        <span class="catalog__item_cost-actual">7000 ₽</span>
+                        <span class="catalog__item_cost-old">21 000 ₽</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="seo">
+        <h2>Мягкая мебель</h2>
+        <p>Наша компания организует оптовые поставки любой сложности. Мы изготовим и доставим заказ согласно вашему
+            требованию и предподчениям. </p>
+        <p>Мы несём полную ответственнсть за качество и сроки поставки. Опираясь на наш опыт ,мы можем организовать
+            сделку любой сложности. Мы стремимся удовлетворить спрос самого взыскательного покупателя, поэтому модельный
+            ряд нашей продукции ежегодно пополняется новыми моделями.</p>
+        <p>Благодаря передовым технологиям и оригинальным дизайнерским решениям мы стали признанным лидером в
+            производстве корпусной мебели для дома и офиса.</p>
+        <p>Наша компания регулярно участвует в мебельных выставках.</p>
+    </div>
+</div>
+<div class="footer">
+    <div class="container">
+        <div class="footer_wrap">
+            <div class="footer__info">
+                <div class="footer_logo">
+                    <svg class="footer_logo-svg">
+                        <use xlink:href="#logo-white"></use>
+                    </svg>
+                </div>
+                <p class="footer__info_address">Россия, г. Рузаевка,<br>ул. Карла Маркса, 16-г,</p>
+                <a class="footer__info_politics" href="">Политика конфиденциальности</a>
+            </div>
+            <div class="footer__menu desktop">
+                <h4 class="footer__menu_title">Каталог</h4>
+                <div class="footer__menu_wrap">
+                    <ul class="footer__nav">
+                        <li class="footer__nav_item"><a class="footer__nav_link" href="">Мягкая мебель</a></li>
+                        <li class="footer__nav_item"><a class="footer__nav_link" href="">Кухонная мебель</a></li>
+                        <li class="footer__nav_item"><a class="footer__nav_link" href="">Для гостиных</a></li>
+                        <li class="footer__nav_item"><a class="footer__nav_link" href="">Для прихожей</a></li>
+                        <li class="footer__nav_item"><a class="footer__nav_link" href="">Столы</a></li>
+                        <li class="footer__nav_item"><a class="footer__nav_link" href="">Шкафы</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__menu mobile">
+                <h4 class="footer__menu_title">Магазин</h4>
+                <div class="footer__menu_wrap">
+                    <ul class="footer__nav">
+                        <li class="footer__nav_item"><a class="footer__nav_link" href="">Выставочные залы</a></li>
+                        <li class="footer__nav_item"><a class="footer__nav_link" href="">О нас</a></li>
+                        <li class="footer__nav_item"><a class="footer__nav_link" href="">Новости</a></li>
+                        <li class="footer__nav_item"><a class="footer__nav_link" href="">Отзывы</a></li>
+                        <li class="footer__nav_item"><a class="footer__nav_link" href="">Контакты</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="universal__info footer_universal">
+                <a href="tel:+79876543210" class="universal__info_phone">+7 987 654-32-10</a>
+                <p class="universal__info_text">Ежедневно с 09:00 – 20:00</p>
+                <a href="mailto:example@example.ru" class="universal__info_email">example@example.ru</a>
+                <div class="universal__info_social">
+                    <div class="universal__info_social-item">
+                        <svg class="universal__info_social-svg">
+                            <use xlink:href="#instagram"></use>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__copyright">
+            <p class="footer__copyright_main">Точно Мебель — магазин мебели, 2020</p>
+            <p class="footer__copyright_made">Сделано в <a href="">OnlineBees</a></p>
+        </div>
+    </div>
+</div>
+<div class="overlay"></div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+        crossorigin="anonymous"></script>
+</body>
+</html>
