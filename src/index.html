@@ -16,9 +16,11 @@
                 <span></span>
             </div>
             <div class="header__logo">
-                <svg class="logo">
-                    <use xlink:href="#logo"></use>
-                </svg>
+                <a href="">
+                    <svg class="logo">
+                        <use xlink:href="#logo"></use>
+                    </svg>
+                </a>
             </div>
             <div class="header__search">
                 <form class="header__search_form" action="">
@@ -120,23 +122,21 @@
 
                     </ul>
                 </li>
-                <div class="nav_other">
-                    <li class="nav__item">
-                        <a href=""><span class="nav__item_title">Выставочные залы</span></a>
-                    </li>
-                    <li class="nav__item">
-                        <a href=""><span class="nav__item_title">О нас</span></a>
-                    </li>
-                    <li class="nav__item">
-                        <a href=""><span class="nav__item_title">Новости</span></a>
-                    </li>
-                    <li class="nav__item">
-                        <a href=""><span class="nav__item_title">Отзывы</span></a>
-                    </li>
-                    <li class="nav__item">
-                        <a href=""><span class="nav__item_title">Контакты</span></a>
-                    </li>
-                </div>
+                <li class="nav__item">
+                    <a href=""><span class="nav__item_title">Выставочные залы</span></a>
+                </li>
+                <li class="nav__item">
+                    <a href=""><span class="nav__item_title">О нас</span></a>
+                </li>
+                <li class="nav__item">
+                    <a href=""><span class="nav__item_title">Новости</span></a>
+                </li>
+                <li class="nav__item">
+                    <a href=""><span class="nav__item_title">Отзывы</span></a>
+                </li>
+                <li class="nav__item">
+                    <a href=""><span class="nav__item_title">Контакты</span></a>
+                </li>
             </ul>
             <div class="header__nav_bottom">
                 <div class="universal__info">
@@ -220,11 +220,11 @@
                                 <div class="range-slider__input">
                                     <div class="range-slider__input_wrap">
                                         <span class="range-slider__input_text">от</span>
-                                        <input id="range-cost_input-1" class="range-slider__input_num" type="number">
+                                        <input id="range-cost_input-0" class="range-slider__input_num" type="number">
                                     </div>
                                     <div class="range-slider__input_wrap">
                                         <span class="range-slider__input_text">до</span>
-                                        <input id="range-cost_input-2" class="range-slider__input_num" type="number">
+                                        <input id="range-cost_input-1" class="range-slider__input_num" type="number">
                                     </div>
                                 </div>
                             </div>
@@ -235,7 +235,7 @@
                     <div class="filter__sale">
                         <p class="filter__wrap_title">Товары со скидкой</p>
                         <label class="switch">
-                            <input class="switch_input" type="checkbox">
+                            <input class="switch_input sale_checkbox-js" type="checkbox">
                             <span class="slider"></span>
                         </label>
                     </div>
@@ -248,49 +248,49 @@
                         <div class="dropdown_child">
                             <div class="filter_material">
                                 <label class="checkbox filter_checkbox">
-                                    <input type="checkbox">
+                                    <input class="material_checkbox-js" type="checkbox" value="ABS пластик">
                                     <div class="checkbox_custom"></div>
                                     <span class="checkbox_name">ABS пластик</span>
                                 </label>
 
                                 <label class="checkbox filter_checkbox">
-                                    <input type="checkbox">
+                                    <input class="material_checkbox-js" type="checkbox" value="Amicor TM">
                                     <div class="checkbox_custom"></div>
                                     <span class="checkbox_name">Amicor TM</span>
                                 </label>
 
                                 <label class="checkbox filter_checkbox">
-                                    <input type="checkbox" checked>
+                                    <input class="material_checkbox-js" type="checkbox" value="Eco Foam" checked="checked">
                                     <div class="checkbox_custom"></div>
                                     <span class="checkbox_name">Eco Foam</span>
                                 </label>
 
                                 <label class="checkbox filter_checkbox">
-                                    <input type="checkbox">
+                                    <input class="material_checkbox-js" type="checkbox" value="PLA пластик">
                                     <div class="checkbox_custom"></div>
                                     <span class="checkbox_name">PLA пластик</span>
                                 </label>
 
                                 <label class="checkbox filter_checkbox">
-                                    <input type="checkbox">
+                                    <input class="material_checkbox-js" type="checkbox" value="Акрил">
                                     <div class="checkbox_custom"></div>
                                     <span class="checkbox_name">Акрил</span>
                                 </label>
 
                                 <label class="checkbox filter_checkbox">
-                                    <input type="checkbox">
+                                    <input class="material_checkbox-js" type="checkbox" value="Алюминиевый сплав">
                                     <div class="checkbox_custom"></div>
                                     <span class="checkbox_name">Алюминиевый сплав</span>
                                 </label>
 
                                 <label class="checkbox filter_checkbox">
-                                    <input type="checkbox">
+                                    <input class="material_checkbox-js" type="checkbox" value="Алюминий">
                                     <div class="checkbox_custom"></div>
                                     <span class="checkbox_name">Алюминий</span>
                                 </label>
 
                                 <label class="checkbox filter_checkbox">
-                                    <input type="checkbox">
+                                    <input class="material_checkbox-js" type="checkbox" value="Бамбук">
                                     <div class="checkbox_custom"></div>
                                     <span class="checkbox_name">Бамбук</span>
                                 </label>
@@ -310,11 +310,11 @@
                                 <div class="range-slider__input">
                                     <div class="range-slider__input_wrap">
                                         <span class="range-slider__input_text">от</span>
-                                        <input id="range-height_input-1" class="range-slider__input_num" type="number">
+                                        <input id="range-height_input-0" class="range-slider__input_num" type="number">
                                     </div>
                                     <div class="range-slider__input_wrap">
                                         <span class="range-slider__input_text">до</span>
-                                        <input id="range-height_input-2" class="range-slider__input_num" type="number">
+                                        <input id="range-height_input-1" class="range-slider__input_num" type="number">
                                     </div>
                                 </div>
                             </div>
@@ -332,11 +332,11 @@
                                 <div class="range-slider__input">
                                     <div class="range-slider__input_wrap">
                                         <span class="range-slider__input_text">от</span>
-                                        <input id="range-length_input-1" class="range-slider__input_num" type="number">
+                                        <input id="range-length_input-0" class="range-slider__input_num" type="number">
                                     </div>
                                     <div class="range-slider__input_wrap">
                                         <span class="range-slider__input_text">до</span>
-                                        <input id="range-length_input-2" class="range-slider__input_num" type="number">
+                                        <input id="range-length_input-1" class="range-slider__input_num" type="number">
                                     </div>
                                 </div>
                             </div>
@@ -346,30 +346,46 @@
             </div>
         </div>
         <div class="catalog_main">
-            <div class="tags">
-                <div class="tags__item">
-                    <span class="tags__item_title">Материалы: Eco Foam</span>
-                    <span class="tags__item_btn tag_remove-js">
-                    <svg class="tags__item_btn-svg">
-                        <use xlink:href="#close-white"></use>
-                    </svg>
-                </span>
+            <div class="tags tags-js">
+                <div id="tags_material" class="tags__item">
+                    <span class="tags__item_title">Материалы: <span id="tags_material_list"></span></span>
+                        <span class="tags__item_btn tag_remove-js" data-section="material">
+                        <svg class="tags__item_btn-svg">
+                            <use xlink:href="#close-white"></use>
+                        </svg>
+                    </span>
                 </div>
-                <div class="tags__item">
-                    <span class="tags__item_title">Цвет: Бирюзовый</span>
-                    <span class="tags__item_btn tag_remove-js">
-                    <svg class="tags__item_btn-svg">
-                        <use xlink:href="#close-white"></use>
-                    </svg>
-                </span>
+                <div id="range-height_tag" class="tags__item">
+                    <span class="tags__item_title">Высота, см: от <span id="range-height_tag-0"></span> до <span id="range-height_tag-1"></span></span>
+                    <span class="tags__item_btn tag_remove-js" data-range="range-height" data-section="range">
+                        <svg class="tags__item_btn-svg">
+                            <use xlink:href="#close-white"></use>
+                        </svg>
+                    </span>
                 </div>
-                <div class="tags__item">
-                    <span class="tags__item_title">Длина, см: от 400 до 2000</span>
-                    <span class="tags__item_btn tag_remove-js">
-                    <svg class="tags__item_btn-svg">
-                        <use xlink:href="#close-white"></use>
-                    </svg>
-                </span>
+                <div id="range-length_tag" class="tags__item">
+                    <span class="tags__item_title">Длина, см: от <span id="range-length_tag-0"></span> до <span id="range-length_tag-1"></span></span>
+                    <span class="tags__item_btn tag_remove-js" data-range="range-length" data-section="range">
+                        <svg class="tags__item_btn-svg">
+                            <use xlink:href="#close-white"></use>
+                        </svg>
+                    </span>
+                </div>
+                <div id="range-cost_tag" class="tags__item">
+                    <span class="tags__item_title">Цена, руб: от <span id="range-cost_tag-0"></span> до <span id="range-cost_tag-1"></span></span>
+                    <span class="tags__item_btn tag_remove-js" data-range="range-cost" data-section="range">
+                        <svg class="tags__item_btn-svg">
+                            <use xlink:href="#close-white"></use>
+                        </svg>
+                    </span>
+                </div>
+                <div id="tags_sale" class="tags__item">
+                    <span class="tags__item_title">Товары со скидкой</span>
+                    <span class="tags__item_btn tag_remove-js" data-range="range-cost" data-section="range">
+                        <svg class="tags__item_btn-svg">
+                            <use xlink:href="#close-white"></use>
+                        </svg>
+                    </span>
                 </div>
                 <div class="tags__clear tag_remove__all-js">
                     <span class="tags__clear_text">Очистить все</span>

@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="44f6d090-2376-44e1-8569-167dd73a2e14" name="Default Changelist" comment="" />
+    <list default="true" id="44f6d090-2376-44e1-8569-167dd73a2e14" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common.blocks/breadcrumb/breadcrumb.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/common.blocks/breadcrumb/breadcrumb.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common.blocks/burger/burger.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/common.blocks/burger/burger.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common.blocks/catalog/catalog.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/common.blocks/catalog/catalog.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common.blocks/checkbox/checkbox.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/common.blocks/checkbox/checkbox.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common.blocks/filter/filter.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/common.blocks/filter/filter.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common.blocks/footer/footer.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/common.blocks/footer/footer.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common.blocks/header/Header.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/common.blocks/header/Header.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common.blocks/nav/nav.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/common.blocks/nav/nav.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common.blocks/range-slider/range-slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/common.blocks/range-slider/range-slider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common.blocks/range-slider/range-slider.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/common.blocks/range-slider/range-slider.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common.blocks/switch/switch.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/common.blocks/switch/switch.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common.blocks/tags/tags.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/common.blocks/tags/tags.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common.blocks/tags/tags.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/common.blocks/tags/tags.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common.blocks/universal__info/universal_info.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/common.blocks/universal__info/universal_info.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/less/styles.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/less/styles.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/less/variables.less" beforeDir="false" afterPath="$PROJECT_DIR$/src/less/variables.less" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +35,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1riAJ7rxStBwSP9PoCGdbyQ6i5J" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -23,6 +46,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="Less" />
@@ -54,6 +78,8 @@
       <workItem from="1619637556376" duration="7258000" />
       <workItem from="1619708837965" duration="26786000" />
       <workItem from="1619763591822" duration="27824000" />
+      <workItem from="1619868470303" duration="3412000" />
+      <workItem from="1619948112310" duration="23871000" />
     </task>
     <servers />
   </component>
@@ -94,10 +120,14 @@
     </state>
     <state x="657" y="295" key="SettingsEditor/0.40.2560.1400/2560.0.1600.860@0.40.2560.1400" timestamp="1619776981403" />
     <state x="2915" y="0" key="SettingsEditor/0.40.2560.1400/2560.0.1600.860@2560.0.1600.860" timestamp="1619776912410" />
-    <state x="875" y="379" width="810" height="722" key="find.popup" timestamp="1619715323203">
+    <state x="1023" y="263" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1619870568689">
       <screen x="0" y="40" width="2560" height="1400" />
     </state>
-    <state x="875" y="379" width="810" height="722" key="find.popup/0.40.2560.1400/2560.0.1600.860@0.40.2560.1400" timestamp="1619715323203" />
+    <state x="1023" y="263" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.40.2560.1400/2560.0.1600.860@0.40.2560.1400" timestamp="1619870568689" />
+    <state x="875" y="379" width="978" height="818" key="find.popup" timestamp="1619870588049">
+      <screen x="0" y="40" width="2560" height="1400" />
+    </state>
+    <state x="875" y="379" width="978" height="818" key="find.popup/0.40.2560.1400/2560.0.1600.860@0.40.2560.1400" timestamp="1619870588049" />
     <state x="852" y="347" key="run.anything.popup" timestamp="1619728861149">
       <screen x="0" y="40" width="2560" height="1400" />
     </state>

@@ -1,3 +1,5 @@
+@import '../../less/variables';
+
 .checkbox {
   width: max-content;
   display: inline-flex;
@@ -35,7 +37,7 @@
     font-weight: normal;
     font-size: 12px;
     line-height: 18px;
-    color: #1A1A1A;
+    color: @color-text;
     transition: color .2s linear;
 
     @media (min-width: 1024px){
@@ -49,7 +51,7 @@
 
     &:checked {
       & + .checkbox_custom {
-        border-color: #359C31;
+        border-color: @color-main;
 
 
         &:after {
@@ -59,7 +61,7 @@
     }
 
     &:checked ~ .checkbox_name {
-      color: #359C31;
+      color: @color-main;
     }
   }
 }
